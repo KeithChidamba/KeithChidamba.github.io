@@ -8,7 +8,9 @@
     </head>
     <body id="Body" class="body"> 
         <div id="headColor">
-          <image id="logoPic" src="logo2.jpeg" height="130px" width="130px"></image>Welcome to Loysel Cakes
+          <image id="logoPic" src="logo2.jpeg" height="130px" width="130px"></image>
+            <br>
+            Welcome to Loysel Cakes
         </div>
     <br>
     <br>
@@ -24,9 +26,8 @@
                 function OpenNav(){
                   var closeBtn = document.getElementById("closeBtn");       
                    var Snav = document.getElementById("SideNav");  
-                   var OpenBtn = document.getElementById("Menu"); 
-                   var Options = document.getElementById("OptionsText"); 
-                   var ContactSection = document.getElementById("ContactSection");
+                   var OpenBtn = document.getElementById("Menu");
+                   var contactSection = document.getElementById("ContactSection");
                    var cakeSection = document.getElementById("CakeSection");
                    var cupcakeSection = document.getElementById("CupCakeSection");
                    var macaronSection = document.getElementById("MacaronSection");
@@ -36,9 +37,9 @@
                    cupcakeSection.style.visibility = "visible";
                   OpenBtn.hidden = true;    
                   cakeSection.style.visibility = "visible"; 
-                  ContactSection.style.visibility = "hidden";
+                  contactSection.style.visibility = "hidden";
                   closeBtn.style.visibility = "visible"; 
-                  Options.style.visibility = "visible";
+                  
                   closeBtn.style.top = "0px";
                   closeBtn.style.left = "0px";
                   closeBtn.style.fontSize ="20px";
@@ -65,7 +66,7 @@
                       var closeBtn = document.getElementById("Menu");  
                       var Snav = document.getElementById("SideNav");
                       var OpenBtn = document.getElementById("closeBtn"); 
-                      var Options = document.getElementById("OptionsText");
+                      var contactSection= document.getElementById("ContactSection");
                       var oldHead = document.getElementById("mainHead");
                       var cakeSection = document.getElementById("CakeSection");
                       var cupcakeSection = document.getElementById("CupCakeSection");
@@ -76,8 +77,7 @@
                       cupcakeSection.style.visibility = "hidden";
                       OpenBtn.style.visibility = "hidden";
                       cakeSection.style.visibility = "hidden";
-                      ContactSection.style.visibility = "visible";
-                      Options.style.visibility = "hidden";
+                      contactSection.style.visibility = "visible";      
                       closeBtn.hidden = false;
                        Snav.style.width = "60px";
                        Snav.style.top = "0px";
