@@ -86,6 +86,9 @@
     width: 300px;
     height: 300px;
 }
+#logoPic{
+    visibility: hidden;
+}
 @media (max-width: 600px) {
     .Cpic{
          width: 400px;
@@ -100,6 +103,7 @@
     }
     #ContactSection{
         bottom: 1;
+         height: 170px;
         font-size: 18px;
     }
 }
